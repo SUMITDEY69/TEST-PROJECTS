@@ -1,0 +1,2 @@
+document.getElementById("demo").innerHTML= "Random -> " + Math.random() + "<br>" + "Maximum -> " + Math.max(100, 50, 200, 98,0,-45,-67,-398) + "<br>" + "Minimum -> " + Math.min(100, 50, 200, 98,0,-45,-67,-398)
++ "<br>" + "ROUND - 15.69 -> " + Math.round(15.69778678) + "<br>FLOOR -> " + Math.floor(15.69) + "<br>CEIL -> " + Math.ceil(15.69);

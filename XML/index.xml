@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding="UTF-8"?>
+<Zoro>
+
+<anime category="cgi">
+<title lang="jap">Chainsaw-Man</title>
+<year>2022-2023</year>
+</anime>
+
+<anime category="shonen">
+<title lang="en">Bleach</title>
+<year>2004-2023</year>
+</anime>
+
+</Zoro>

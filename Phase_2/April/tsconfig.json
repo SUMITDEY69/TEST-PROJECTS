@@ -1,0 +1,25 @@
+{
+
+  "exclude": ["./js","node_modules", "lib.dom.d.ts"],
+
+  "compilerOptions": {
+
+    /* Language and Environment */
+    "target": "ES5",
+
+    /* Modules */
+    "module": "commonjs",
+    "rootDir": "index.ts",
+
+    /* JavaScript Support */
+    "allowJs": true,
+    "outDir": ".index.js",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* Type Checking */
+    "strict": true,
+    "alwaysStrict": true,
+    "skipLibCheck": true
+  }
+}

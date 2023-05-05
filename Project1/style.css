@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Braah+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Konkhmer+Sleokchher&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Foldit&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(./bg.webp);
+  background-repeat: no-repeat;
+  height: 110vh;
+  overflow: hidden;
+}
+
+/*? HEADER - Start */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid skyblue; */
+  width: 100vw;
+  height: 10vh;
+}
+
+.logo {
+  display: inline;
+  color: #e2e1e1;
+  /* border: 2px solid rgb(140, 202, 227); */
+  position: absolute;
+  left: 2rem;
+  font-family: "Konkhmer Sleokchher";
+  font-style: oblique;
+  font-weight: 900;
+  font-size: 1.5rem;
+  top: 1rem;
+}
+
+nav {
+  /* border: 2px solid orange; */
+  position: absolute;
+  right: 13rem;
+  height: 10vh;
+}
+
+ul li {
+  display: inline;
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+  margin-left: 2rem;
+  /* border: 2px solid navajowhite; */
+}
+
+ul li a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.741);
+  font-family: monospace;
+  font-size: 1.3rem;
+}
+
+ul li a:visited {
+  color: hotpink;
+}
+
+ul li a:hover {
+  color: salmon;
+}
+/*? HEADER - End */
+
+/*? CONTENT - Start */
+main {
+  height: 550px;
+  /* border: 2px solid yellowgreen; */
+}
+.context {
+  /* border: 2px solid cyan; */
+  position: relative;
+  top: 7rem;
+  left: 4rem;
+}
+h1 {
+  /* color: rgb(237, 103, 103); */
+  /* border: 2px solid red; */
+  margin: 0;
+  font-family: "Foldit", cursive;
+  font-size: 12vh;
+  padding-left: 0.8rem;
+}
+h2 {
+  /* border: 2px solid red; */
+  color: #fff;
+  margin: 0;
+  padding-left: 1.2rem;
+  font-family: "Braah One", sans-serif;
+  font-size: 2rem;
+  position: relative;
+  padding-left: 1rem;
+}
+
+.context > p {
+  width: 25rem;
+  position: relative;
+  top: 1rem;
+  color: #fff;
+  font-family: "Roboto Mono", monospace;
+  padding-bottom: 1.5rem;
+}
+
+.button {
+  color: black;
+  background-color: salmon;
+  border: 0.2rem solid salmon;
+  padding: 0.8rem 1.5rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+  border: 0.2rem solid salmon;
+  padding: 0.8rem 1.5rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+/*? CONTENT - End */
+
+/*? FOOTER - Start */
+footer {
+  /* border: 2px solid red; */
+  height: 10vh;
+}
+
+footer > h5 {
+  position: relative;
+  color: white;
+  left: 3rem;
+}
+/*? FOOTER - End */

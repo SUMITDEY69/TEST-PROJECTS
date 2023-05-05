@@ -1,0 +1,11 @@
+{
+  "name": "pass-calc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --watch test.js"
+  },
+  "author": "sumit",
+  "license": "ISC"
+}
